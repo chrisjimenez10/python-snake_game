@@ -2,7 +2,7 @@ from turtle import Turtle
 ALIGNMENT = "center"
 FONT = ("Courier", 12, "bold")
 GAME_OVER_FONT = ("Courier", 15, "bold")
-DATA_FILE = "data.txt"
+DATA_FILE = "./data.txt"
 
 class Scoreboard(Turtle):
     def __init__(self):
